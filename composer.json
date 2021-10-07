@@ -15,5 +15,14 @@
         "psr-4": {
             "Thomas2022\\Contact\\": "src/"
         }
+    },
+    
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Thomas2022\\Contact\\ContactServiceProvider"
+            ]
+            
+        }
     }
 }
