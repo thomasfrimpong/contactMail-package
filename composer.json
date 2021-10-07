@@ -1,0 +1,19 @@
+{
+    "name": "thomas2022/contact",
+    "description": "A package to send mail to admin and save a copy in the database.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thomas Frimpong",
+            "email": "tfrimpong1987@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Thomas2022\\Contact\\": "src/"
+        }
+    }
+}
